@@ -159,6 +159,18 @@ db.sync({ force: true })
       { country: "Slovakia", currency: "Euro", iso_code: "EUR" },
       { country: "Singapore", currency: "Singapore dollar", iso_code: "SGD" },
       { country: "Somalia", currency: "Somali shilling", iso_code: "SOS" },
+
+      { country: "South Africa", currency: "South African rand", iso_code: "ZAR" },
+      { country: "Spain", currency: "Euro", iso_code: "EUR" },
+      { country: "Switzerland", currency: "Swiss franc", iso_code: "CHF" },
+      { country: "Taiwan", currency: "New Taiwan dollar", iso_code: "TWD" },
+      { country: "Thailand", currency: "Thai baht", iso_code: "THB" },
+      { country: "Turkey", currency: "Turkish lira", iso_code: "TRY" },
+      { country: "United Kingdom", currency: "British pound", iso_code: "GBP" },
+      { country: "United States", currency: "United States dollar", iso_code: "USD" },
+      { country: "Vietnam", currency: "Vietnamese dong", iso_code: "VND" },
+      { country: "Yemen", currency: "Yemeni rial", iso_code: "YER" },
+      { country: "Zambia", currency: "Zambian kwacha", iso_code: "ZMW" }
     ];
 
     const cardPromises = cards.map(card => Card.create(card));
